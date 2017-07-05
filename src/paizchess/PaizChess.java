@@ -9,12 +9,12 @@ public class PaizChess {
 
     public static void main(String[] args) 
     {
-        tablero t = new tablero();
+        lobby l = new lobby();
         
-        t.setTitle("Ajedrez Wilfredo Paiz");
-        t.setResizable(false);
-        t.setLocationRelativeTo(null);
-        t.setVisible(true);
+        l.setTitle("BEAR LOBBY");
+        l.setResizable(false);
+        l.setLocationRelativeTo(null);
+        l.setVisible(true);
         
     }
     
